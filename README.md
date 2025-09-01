@@ -27,18 +27,6 @@ This makes it perfect for **online course recordings, interviews, and meeting ar
 
 ---
 
-## 🏗️ Project Architecture
-
-```mermaid
-flowchart TD
-    A[📤 User Uploads Video] --> B[🎬 Video Compression]
-    B --> C[🔇 Noise Cancellation]
-    C --> D[📝 Speech-to-Text Transcription]
-    D --> E[📑 Summary + PDF Export]
-    E --> F[🗄️ Store in MongoDB]
-    F --> G[📤 Retrieve Transcript / PDF / Video]
-
-
 🛠️ Tech Stack
 
 Frontend: React / Next.js (video upload, results display)
@@ -91,5 +79,13 @@ Frontend will now run at 👉 http://localhost:3000
 
 👉 This version now has a **clear beginning → setup → usage → workflow → ending notes** flow.  
 
-Do you want me to also **generate a nice badge section** (build, license, MongoDB, Python version) at the top like professional repos usually have?
+## 🏗️ Project Architecture
 
+```mermaid
+flowchart TD
+    A[📤 User Uploads Video] --> B[🎬 Video Compression]
+    B --> C[🔇 Noise Cancellation]
+    C --> D[📝 Speech-to-Text Transcription]
+    D --> E[📑 Summary + PDF Export]
+    E --> F[🗄️ Store in MongoDB]
+    F --> G[📤 Retrieve Transcript / PDF / Video]
