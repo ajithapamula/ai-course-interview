@@ -35,17 +35,6 @@ Processing Tools: FFmpeg, Speech-to-Text (Whisper / HuggingFace), Transformers f
 Database: MongoDB
 Reports: ReportLab / FPDF for PDF generation
 
-ai-course-interview/
-├── backend/               # Backend (APIs, video/audio processing logic)
-│   ├── main.py            # Entry point for FastAPI/Flask server
-│   ├── utils/             # Helper functions (compression, noise cancellation, transcription)
-│   └── ...
-├── frontend/              # React / Next.js frontend (upload & display)
-├── requirements.txt       # Python dependencies
-├── package.json           # Frontend dependencies (if React used)
-├── docker-compose.yml     # Dockerized setup
-├── README.md              # Documentation (this file)
-└── ...
 
 🚀 Getting Started
 1️⃣ Clone the repository
@@ -78,6 +67,18 @@ Frontend will now run at 👉 http://localhost:3000
 ---
 
 👉 This version now has a **clear beginning → setup → usage → workflow → ending notes** flow.  
+```mermaid
+ai-course-interview/
+├── backend/               # Backend (APIs, video/audio processing logic)
+│   ├── main.py            # Entry point for FastAPI/Flask server
+│   ├── utils/             # Helper functions (compression, noise cancellation, transcription)
+│   └── ...
+├── frontend/              # React / Next.js frontend (upload & display)
+├── requirements.txt       # Python dependencies
+├── package.json           # Frontend dependencies (if React used)
+├── docker-compose.yml     # Dockerized setup
+├── README.md              # Documentation (this file)
+└── ...
 
 ## 🏗️ Project Architecture
 
