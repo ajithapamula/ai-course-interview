@@ -23,7 +23,8 @@ This makes it perfect for **online course recordings, interviews, and meeting ar
 - 🔄 **Automatic processing pipeline** (compression → cleaning → transcription → summary → PDF)  
 - 🗂️ **MongoDB storage** for all files & metadata  
 - 🔍 **Easy retrieval** via frontend or API  
-- 🚀 Ready for scaling with Docker & cloud deployment  
+- 🚀 Ready for scaling with Docker & cloud deployment
+  
 
 ---
 
