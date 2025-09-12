@@ -5,7 +5,6 @@
 **AI Course Interview** is a full-stack AI-powered application that helps you process course or interview recordings.  
 
 Upload a video from your local device or app, and the system will automatically:  
-
 1. 🎬 **Compress the video** to save space  
 2. 🔇 Apply **noise cancellation** for better clarity  
 3. 📝 Generate a **full transcript** using speech-to-text  
