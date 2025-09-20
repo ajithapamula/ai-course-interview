@@ -36,7 +36,7 @@
 
 ---
 
-### 📚 [Education App](https://github.com/ajithapamula/Education-App)  
+### 📚 [Education App](https://github.com/ajithapamula/Edu-App)  
 *AI-driven learning platform for students and teachers*  
 - Personalized **learning paths**  
 - Smart **quiz generation**  
